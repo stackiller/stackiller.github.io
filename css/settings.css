@@ -1,0 +1,100 @@
+/*
+  Definições gerais x)
+*/
+
+/* Fontes - { Rubik, IBM Plex Sans } */
+ @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Rubik:wght@400;500;700&display=swap');
+
+/* Root settings  */
+:root {
+  font-size: 16px;
+}
+
+/* Definições gerais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #C9C7C7;
+}
+
+html {
+  color: #313131;
+  scroll-behavior: smooth;
+}
+
+li, ul {
+  list-style-type: none;
+}
+
+/* Definição de fontes */
+body, div, button, ul, li, a, p {
+  font-family: 'Rubik', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  margin: 2px 0;
+}
+
+p {
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin: 2px 0;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/* tamanho da fonte */
+h1 { font-size: 2.8rem; }
+h2 { font-size: 2.6rem; }
+h3 { font-size: 2.4rem; }
+h4 { font-size: 2.2rem; }
+h5 { font-size: 2rem;   }
+h6 { font-size: 1.8rem; }
+
+p, a, input { font-size: 1.30rem; }
+
+/* Classes de Alinhamento */
+.row, .column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+/* Container - classes de encapsulamento */
+.container, .container-full {
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 450px;
+}
+.container-full {
+  width: 100%;
+}
+
+/* Media Query - Android */
+/*@media (max-width: 800px) {
+  h1 { font-size: 2.3rem; }
+  h2 { font-size: 2.1rem; }
+  h3 { font-size: 1.9rem; }
+  h4 { font-size: 1.6rem; }
+  h5 { font-size: 1.3rem; }
+  h6 { font-size: 1rem;   }
+}*/

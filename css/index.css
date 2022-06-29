@@ -1,0 +1,72 @@
+/*
+  Definições do site x)
+*/
+
+body {
+  padding: 20px 15px;
+}
+
+/* wrapper */
+.container-w {
+  margin: auto;
+  max-width: 450px;
+  border-radius: 5px;
+  background: #ffffff;
+}
+
+/* status */
+.status-w {
+  padding: 10px 0;
+  border-radius: 5px 5px 0 0;
+  background: #949F87;
+}
+
+.status {}
+
+.status p {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+/* overview */
+.overview {
+  margin-top: 40px;
+}
+
+.overview img {
+  margin-left: -15px;
+  max-width: 100px;
+}
+
+/* langs */
+.langs {
+  margin: 30px 0;
+}
+
+.langs .row {}
+
+.langs .lang {
+  margin: 5px;
+  padding: 10px 15px;
+  border-radius: 4px;
+  background: #cecece;
+  color: #ffffff;
+}
+
+/* social links */
+.social-links {
+  border-top: 1px solid #D6D6D6;
+  background: #F7F7F7;
+  padding: 20px;
+  border-radius: 0 0 5px 5px;
+}
+
+.social-links .social-link {
+  margin: 0 15px;
+}
+
+.social-links .social-link img {
+  width: 35px;
+}
