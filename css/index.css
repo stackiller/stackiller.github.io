@@ -6,12 +6,17 @@ body {
   padding: 20px 15px;
 }
 
+.text-shadow {
+  text-shadow: 0px 4px 4px rgba(0 0 0 / 20%);
+}
+
 /* wrapper */
 .container-w {
   margin: auto;
   max-width: 450px;
   border-radius: 5px;
   background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0 0 0 / 25%)
 }
 
 /* status */
@@ -43,9 +48,11 @@ body {
 /* langs */
 .langs {
   margin: 30px 0;
+  align-items: flex-start;
 }
 
-.langs .row {}
+.langs .row {
+}
 
 .langs .lang {
   margin: 5px;
